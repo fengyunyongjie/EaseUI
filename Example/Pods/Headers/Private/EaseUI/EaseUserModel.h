@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/EMUIKit/Model/EaseUserModel.h

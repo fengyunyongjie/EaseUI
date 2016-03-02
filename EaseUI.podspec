@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/EaseUI"
+  s.homepage         = "https://github.com/fengyunyongjie/EaseUI"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "FengYNing" => "fengyunyongjie@qq.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/EaseUI.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/fengyunyongjie/EaseUI.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -37,4 +37,6 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'MWPhotoBrowser', '~> 2.1.1'
+  s.dependency 'MJRefresh', '~> 3.0.6'
 end

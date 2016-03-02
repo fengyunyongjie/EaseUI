@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/EMUIKit/3rdparty/MWPhotoBrowser/Libraries/PSTCollectionView/NSIndexPath+PSTCollectionViewAdditions.h

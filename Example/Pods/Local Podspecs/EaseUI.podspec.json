@@ -1,0 +1,33 @@
+{
+  "name": "EaseUI",
+  "version": "0.1.0",
+  "summary": "A short description of EaseUI.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/EaseUI",
+  "license": "MIT",
+  "authors": {
+    "FengYNing": "fengyunyongjie@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/EaseUI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "EaseUI": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "MWPhotoBrowser": [
+      "~> 2.1.1"
+    ],
+    "MJRefresh": [
+      "~> 3.0.6"
+    ]
+  }
+}
